@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TourBolivia.Core", "TourBolivia.Core\TourBolivia.Core.csproj", "{91C5A60E-3605-4CF2-85C1-5CD33034019C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TourBolivia.Infrastructure", "TourBolivia.Infrastructure\TourBolivia.Infrastructure.csproj", "{AD9F8737-EC6D-4417-8F64-EC0BBE3130F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{83E5A2A5-7229-4E1F-A415-6BB34CC812D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourBolivia.Api", "TourBolivia.Api\TourBolivia.Api.csproj", "{FFFE3398-20CC-4599-B885-60ECB1CE2451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourBolivia.UnitTests", "TourBolivia.UnitTests\TourBolivia.UnitTests.csproj", "{19834C60-6822-4702-99A9-1A6B78DD5B20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourBolivia.IntegrationTests", "TourBolivia.IntegrationTests\TourBolivia.IntegrationTests.csproj", "{61E465E0-93F2-4D4B-B581-E5980FD09845}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91C5A60E-3605-4CF2-85C1-5CD33034019C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C5A60E-3605-4CF2-85C1-5CD33034019C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C5A60E-3605-4CF2-85C1-5CD33034019C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C5A60E-3605-4CF2-85C1-5CD33034019C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD9F8737-EC6D-4417-8F64-EC0BBE3130F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9F8737-EC6D-4417-8F64-EC0BBE3130F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9F8737-EC6D-4417-8F64-EC0BBE3130F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9F8737-EC6D-4417-8F64-EC0BBE3130F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFFE3398-20CC-4599-B885-60ECB1CE2451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFFE3398-20CC-4599-B885-60ECB1CE2451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFFE3398-20CC-4599-B885-60ECB1CE2451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFFE3398-20CC-4599-B885-60ECB1CE2451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19834C60-6822-4702-99A9-1A6B78DD5B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19834C60-6822-4702-99A9-1A6B78DD5B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19834C60-6822-4702-99A9-1A6B78DD5B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19834C60-6822-4702-99A9-1A6B78DD5B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E465E0-93F2-4D4B-B581-E5980FD09845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E465E0-93F2-4D4B-B581-E5980FD09845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E465E0-93F2-4D4B-B581-E5980FD09845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E465E0-93F2-4D4B-B581-E5980FD09845}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{19834C60-6822-4702-99A9-1A6B78DD5B20} = {83E5A2A5-7229-4E1F-A415-6BB34CC812D8}
+		{61E465E0-93F2-4D4B-B581-E5980FD09845} = {83E5A2A5-7229-4E1F-A415-6BB34CC812D8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDD74171-21BB-420C-97FB-B4E6B9430BCA}
+	EndGlobalSection
+EndGlobal
