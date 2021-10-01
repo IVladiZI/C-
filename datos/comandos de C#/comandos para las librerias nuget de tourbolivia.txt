@@ -1,2 +1,0 @@
-****con este comando anclamos los 
-Scaffold-DbContext "Server=DESKTOP-191H2VS;Database=SocialMedia;Integrated Security = true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data
