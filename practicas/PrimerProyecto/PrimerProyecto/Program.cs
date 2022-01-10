@@ -69,14 +69,15 @@ namespace PrimerProyecto
             Console.WriteLine("Resultado 2: \n"+ a +" "+ b+" " + c);
             var valorDato = a > b;
             //diferente forma de asignacion multiplicacion ,division y resto
-            Console.WriteLine("Resultado 3: \n" + valorDato);*/
+            Console.WriteLine("Resultado 3: \n" + valorDato);
             Objeto a = new Objeto("MARIA", "1238909", 3);
             a.eliminaRepetidos();
-            Console.WriteLine(a);
+            Console.WriteLine(a);*/
+            Conector con = new Conector();
 
         }
 
-        
+
     }
    
 }

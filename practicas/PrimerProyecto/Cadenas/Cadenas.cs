@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Cadenas
 {
@@ -8,11 +9,6 @@ namespace Cadenas
         string valor1 { get; set; }
         string valor2 { get; set; }
         int valor3 { get; set; }
-
-        public void eliminaRepetidos(string cadena1)
-        {
-            Dim contador As new IDictionary()();
-        }
     }
     public class CadenaYEntero
     {
