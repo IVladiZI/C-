@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 
@@ -6,21 +7,26 @@ namespace Cadenas
 {
     public class Cadenas
     {
-        string valor1 { get; set; }
-        string valor2 { get; set; }
-        int valor3 { get; set; }
-    }
-    public class CadenaYEntero
-    {
-        string cadena1 { get; set; }
-        string cadena2 { get; set; }
-        int entero1 { get; set; }
-        public CadenaYEntero(string va1, string va2, int i1)
+        public string Cadena1 { get; set; }
+        public string Cadena2 { get; set; }
+        public string Cadena3 { get; set; }
+        public Cadenas(string cadena1, string cadena2, string cadena3)
         {
-            this.cadena1 = va1;
-            cadena2 = va2;
-            entero1 = i1;
+            Cadena1 = cadena1;
+            Cadena2 = cadena2;
+            Cadena3 = cadena3;
+        }
+        public void ManejoDeCadenas()
+        {
+            Console.WriteLine($"Elimiinacion de caracteres{Environment.NewLine}Cadena: {Cadena1} tamaño: {Cadena1.Length}");
+            string resultado = Cadena1.Remove(0, Cadena1.Length - 8);
+            Console.WriteLine($"Resultado con funcion Remove: {resultado}");
+            resultado = Cadena2.Substring(Cadena1.Length - 8, Cadena1.Length);
+            Console.WriteLine($"Resultado con funcion Substring: {resultado}");
+        }
+        public void ParsearCadenas()
+        {
+
         }
     }
-
 }

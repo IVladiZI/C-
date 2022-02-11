@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadenas", "Cadenas\Cadenas.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Conectores", "Conectores", "{79E4FB09-2DBD-474D-845C-A841D594C13F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConectorSqlServer", "ConectorSqlServer\ConectorSqlServer.csproj", "{289C8064-0ED6-47C1-B56F-6250B232C80D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConectorSqlServer", "ConectorSqlServer\ConectorSqlServer.csproj", "{289C8064-0ED6-47C1-B56F-6250B232C80D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManejoDeValores", "ManejoDeValores\ManejoDeValores.csproj", "{4DF44BB6-B950-4E3E-A06B-819CFE6FC273}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{289C8064-0ED6-47C1-B56F-6250B232C80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{289C8064-0ED6-47C1-B56F-6250B232C80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{289C8064-0ED6-47C1-B56F-6250B232C80D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF44BB6-B950-4E3E-A06B-819CFE6FC273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF44BB6-B950-4E3E-A06B-819CFE6FC273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF44BB6-B950-4E3E-A06B-819CFE6FC273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF44BB6-B950-4E3E-A06B-819CFE6FC273}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{124AE259-A9DD-4968-954E-EEE6AA7FD6D6} = {E14D8BD5-1A1B-492E-A0EC-885ED8BC0D49}
 		{289C8064-0ED6-47C1-B56F-6250B232C80D} = {79E4FB09-2DBD-474D-845C-A841D594C13F}
+		{4DF44BB6-B950-4E3E-A06B-819CFE6FC273} = {E14D8BD5-1A1B-492E-A0EC-885ED8BC0D49}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D170900-9DEF-4F36-B774-AFC630804C3F}
